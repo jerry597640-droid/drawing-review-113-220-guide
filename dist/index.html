@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="鋼筋施工新教材與原教材景觀、帷幕、機電及跨專業整合互動閱讀。">
+  <title>圖說研讀與跨專業整合｜113–220頁</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="menu-button" id="menuButton" aria-label="開啟章節選單">☰</button>
+    <div><strong>圖說研讀與跨專業整合</strong><span>第 113–220 頁互動導覽</span></div>
+    <div class="pdf-links"><a class="pdf-link" href="assets/rebar51/new-course.pdf" target="_blank" rel="noopener">新教材 PDF（51頁）↗</a> <a class="pdf-link" href="https://chatgpt.com/api/library/files/libfile_8d05d47e468881919196719217b5e9b0/download" target="_blank" rel="noopener">原教材原始 PDF ↗</a></div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="side-heading">閱讀區</div>
+      <nav id="sectionNav" aria-label="閱讀區"></nav>
+      <div class="side-note"><b>108</b><span>頁教材均已納入</span></div>
+    </aside>
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow">重點整理</p>
+          <h1>鋼筋施工與跨專業圖說研讀</h1>
+          <p>選擇閱讀區與頁面，依第 113–220 頁的順序查看教材圖文及內容整理。</p>
+        </div>
+        <div class="search-box">
+          <label for="searchInput">搜尋 108 頁內容</label>
+          <div><input id="searchInput" type="search" placeholder="例如：柱筋、覆土、帷幕、RFI…"><button id="searchButton">搜尋</button></div>
+        </div>
+      </section>
+      <section class="section-picker" aria-labelledby="pickerTitle">
+        <div class="section-title"><div><p class="eyebrow">選取畫面</p><h2 id="pickerTitle">六大閱讀區</h2></div><span id="activeRange">第 113–133 頁</span></div>
+        <div class="section-grid" id="sectionGrid"></div>
+      </section>
+      <section class="workspace">
+        <div class="topic-panel">
+          <div class="panel-head"><div><p class="eyebrow">重點選取</p><h2 id="topicHeading">概念與柱筋</h2></div><span id="resultCount"></span></div>
+          <div id="topicList" class="topic-list"></div>
+        </div>
+        <article class="detail-panel" id="detailPanel" tabindex="-1">
+          <div id="detailContent"></div>
+        </article>
+      </section>
+    </main>
+  </div>
+  <div class="overlay" id="overlay"></div>
+  <script src="pages-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
