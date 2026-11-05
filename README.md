@@ -41,3 +41,7 @@ python3 -m http.server 8000 --directory dist
 如要改由 GitHub Pages 提供網站，需另外啟用 GitHub Pages 並設定發布 `dist/`。站內「原教材原始 PDF」使用既有 ChatGPT Library 連結，可能受到檔案存取權限限制；請在改用其他網域前確認連結可供目標讀者使用。
 
 教材圖面及文字的使用與再散布請遵循原始教材權利及公司授權範圍。此備份未附加開源授權條款。
+
+## 歷史教材 PDF
+
+舊版完整教材 `dist/assets/rebar/new-course.pdf`（約 17.8 MB）未直接納入此 GitHub 備份；可從[原教學網站下載舊版 PDF](https://drawing-review-113-213-guide.hsujerry.chatgpt.site/assets/rebar/new-course.pdf)。目前第 113–220 頁互動課程使用的逐頁圖片與 51 頁新版 PDF 已納入 `dist/`。
